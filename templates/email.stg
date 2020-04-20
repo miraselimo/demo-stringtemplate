@@ -1,9 +1,13 @@
-From <from_address>
-To <to_address>
+body(fromaddress, toaddress, to) ::= <<
+    From <fromaddress>
+    To <toaddress>
+    
+    Dear <to>
 
-Dear <to> 
+    Hi. Wassup cuz?
+>>
 
-Hi. wassup cuz??
-
-Best Regards,
-<from>
+signature(from) ::= <<
+    Regards,
+    <from>
+>>
